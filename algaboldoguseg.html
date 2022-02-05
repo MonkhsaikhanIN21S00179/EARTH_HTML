@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .useg{
+            width:100%;
+            height:100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            position:relative;
+        }
+        p1{
+            font-size:30px;
+        }
+        .ardtal{
+            display:flex;
+            flex-direction: column;
+            position:absolute;
+            right:39%;
+        }
+        p2{
+            font-size:30px;
+            animation:p1 5s infinite;
+            opacity: 100%;
+        }
+        @keyframes p2{
+            0%{ 
+                opacity: 0%;
+            }
+
+            100%{
+               opacity: 100%;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="useg">
+        <p1>Ta</p1>
+        <div class="ardtal">
+            <p2>Hurdhuch</p2>
+            <p3>Shineleg</p3>
+            <p4>Tavtuh</p4>
+        </div>
+    </div>
+    
+</body>
+</html>
